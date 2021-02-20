@@ -79,7 +79,8 @@ public class Duke {
         }
     }
 
-    public void getResponse(String input) {
-        
+    public String getResponse(String input) {
+
+        return input;
     }
 }
