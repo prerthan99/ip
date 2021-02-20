@@ -2,9 +2,9 @@ package prerthan.duke.command;
 
 import prerthan.duke.Duke;
 import prerthan.duke.exception.DukeInvalidArgumentException;
+import prerthan.duke.io.Output;
 import prerthan.duke.io.Storage;
 import prerthan.duke.task.TaskList;
-import prerthan.duke.io.Output;
 
 /**
  * ByeCommand

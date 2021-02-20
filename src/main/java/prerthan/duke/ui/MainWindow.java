@@ -11,6 +11,11 @@ import prerthan.duke.Duke;
 
 /**
  * Controller for MainWindow. Provides the layout for the other controls.
+ * <p>
+ * 90% lifted from iP JavaFX FXML tutorial; changes made to accommodate
+ * interacting with the Duke controller.
+ *
+ * @author Jeffry Lum
  */
 public class MainWindow extends AnchorPane {
     @FXML
@@ -43,10 +48,19 @@ public class MainWindow extends AnchorPane {
      */
     @FXML
     private void handleUserInput() {
+        // Redirects user input in the text field to stdin.
         String input = userInput.getText();
-        String response = duke.getResponse(input);
-        dialogContainer.getChildren().addAll(DialogBox.getUserDialog(input, userImage),
-                                             DialogBox.getDukeDialog(response, dukeImage));
+
+        duke.redirect(input);
+
+        String response = duke.getResponse();
+
+        DialogBox userDialogBox = DialogBox.getUserDialog(input, userImage);
+
+        DialogBox dukeDialogBox = DialogBox.getDukeDialog(response, dukeImage);
+
+        dialogContainer.getChildren().addAll(userDialogBox, dukeDialogBox);
         userInput.clear();
     }
+
 }

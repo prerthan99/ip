@@ -1,8 +1,8 @@
 package prerthan.duke.task;
 
 import prerthan.duke.exception.DukeEmptyDetailException;
-import prerthan.duke.parse.DateParser;
 import prerthan.duke.exception.DukeInvalidDateTimeException;
+import prerthan.duke.parse.DateParser;
 
 import java.time.ZonedDateTime;
 
@@ -14,6 +14,7 @@ public class Deadline extends Task {
 
     /**
      * Creates a new {@link Deadline} with the provided {@code detail}, {@code isComplete} and
+     * the {@link by}.
      *
      * @param detail
      * @param by

@@ -3,7 +3,7 @@ package prerthan.duke.io;
 import prerthan.duke.Duke;
 import prerthan.duke.parse.DateParser;
 import prerthan.duke.task.*;
-import prerthan.duke.task.*;
+import sharadhr.duke.task.*;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -98,7 +98,8 @@ public class Storage {
     /**
      * Returns a {@link TaskList}, parsed from the specified file associated with
      * this {@link Storage} object.
-
+     *
+     * @return the {@link Tasklist} after parsing the file on disk
      */
     public TaskList loadFromFile() {
         try {
