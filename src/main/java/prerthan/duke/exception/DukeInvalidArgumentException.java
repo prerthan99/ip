@@ -1,6 +1,6 @@
 package prerthan.duke.exception;
 
-import prerthan.duke.command.Command.CommandName;
+import prerthan.duke.command.Command;
 
 /**
  * InvalidArgumentException
@@ -8,10 +8,10 @@ import prerthan.duke.command.Command.CommandName;
 public class DukeInvalidArgumentException extends DukeException {
     private static final long serialVersionUID = 5221851007504557801L;
 
-    private CommandName cmdName;
+    private Command.CommandName cmdName;
     private String argumentString;
 
-    public DukeInvalidArgumentException(String message, String[] arguments, CommandName command,
+    public DukeInvalidArgumentException(String message, String[] arguments, Command.CommandName command,
                                         String thrownBy) {
         super(message, thrownBy);
         this.argumentString = String.join(" ", arguments);

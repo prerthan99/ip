@@ -1,15 +1,15 @@
 package prerthan.duke;
 
 import javafx.application.Platform;
-import prerthan.duke.command.Command;
 import prerthan.duke.exception.DukeEmptyDetailException;
-import prerthan.duke.exception.DukeInvalidArgumentException;
 import prerthan.duke.exception.DukeInvalidCommandException;
-import prerthan.duke.exception.DukeInvalidDateTimeException;
 import prerthan.duke.io.Input;
+import prerthan.duke.task.TaskList;
+import prerthan.duke.command.Command;
+import prerthan.duke.exception.DukeInvalidArgumentException;
+import prerthan.duke.exception.DukeInvalidDateTimeException;
 import prerthan.duke.io.Output;
 import prerthan.duke.io.Storage;
-import prerthan.duke.task.TaskList;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
