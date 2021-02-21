@@ -23,12 +23,12 @@ dependencies {
     implementation group: 'org.openjfx', name: 'javafx-graphics', version: javaFxVersion, classifier: 'linux'
 }
 
-group 'sharadhr.duke'
+group 'prerthan.duke'
 version '0.1.0'
 
 application {
     // Change this to your main class.
-    mainClassName = "sharadhr.duke.Duke"
+    mainClassName = "prerthan.duke.Duke"
 }
 
 run {

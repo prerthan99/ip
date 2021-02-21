@@ -4,6 +4,12 @@ import prerthan.duke.task.Task;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+/**
+ * @README
+all the code up to this point is based off https://github.com/sharadhr
+the work thus far is reused code with modifications made to fix bugs, optimise and improve on it.
+note, this is true for ALL the code in here and previous tags up to this point
+ */
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;

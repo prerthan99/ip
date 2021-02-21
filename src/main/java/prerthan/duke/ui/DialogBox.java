@@ -17,6 +17,13 @@ import java.io.IOException;
 import java.util.Collections;
 
 /**
+ * @README
+all the code up to this point is based off https://github.com/sharadhr
+the work thus far is reused code with modifications made to fix bugs, optimise and improve on it.
+note, this is true for ALL the code in here and previous tags up to this point
+ */
+
+/**
  * An example of a custom control using FXML.
  * This control represents a dialog box consisting of an ImageView to represent
  * the speaker's face and a label

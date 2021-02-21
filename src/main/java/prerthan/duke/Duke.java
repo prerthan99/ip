@@ -11,6 +11,13 @@ import prerthan.duke.io.Output;
 import prerthan.duke.io.Storage;
 import prerthan.duke.task.TaskList;
 
+/**
+ * @README
+all the code up to this point is based off https://github.com/sharadhr
+the work thus far is reused code with modifications made to fix bugs, optimise and improve on it.
+note, this is true for ALL the code in here and previous tags up to this point
+ */
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

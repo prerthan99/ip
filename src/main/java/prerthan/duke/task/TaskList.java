@@ -2,7 +2,12 @@ package prerthan.duke.task;
 
 import prerthan.duke.io.Output;
 import prerthan.duke.Duke;
-
+/**
+ * @README
+all the code up to this point is based off https://github.com/sharadhr
+the work thus far is reused code with modifications made to fix bugs, optimise and improve on it.
+note, this is true for ALL the code in here and previous tags up to this point
+ */
 import java.util.ArrayList;
 import java.util.List;
 
