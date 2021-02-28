@@ -1,41 +1,40 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/prerthan99/ip/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Setting up
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Prerequisites**
 
-### Markdown
+* JDK 11
+* Recommended: IntelliJ IDE
+* Fork this repo to your GitHub account and clone the fork to your computer
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Importing the project into IntelliJ**
 
-```markdown
-Syntax highlighted code block
+1. Open IntelliJ (if you are not in the welcome screen, click `File` > `Close Project` to close the existing project dialog first).
+1. Set up the correct JDK version.
+   * Click `Configure` > `Structure for new Projects` (in older versions of Intellij:`Configure` > `Project Defaults` > `Project Structure`).
+   * If JDK 11 is listed in the drop down, select it. If it is not, click `New...` and select the directory where you installed JDK 11.
+   * Click `OK`.
+1. Click `Import Project`.
+1. Locate the project directory and click `OK`.
+1. Select `Create project from existing sources` and click `Next`.
+1. Rename the project if you want. Click `Next`.
+1. Ensure that your src folder is checked. Keep clicking `Next`.
+1. Click `Finish`.
 
-# Header 1
-## Header 2
-### Header 3
+# Tutorials 
 
-- Bulleted
-- List
+Duke Increment | Tutorial
+---------------|---------------
+`A-Gradle` | [Gradle Tutorial](tutorials/gradleTutorial.md)
+`A-TextUiTesting` | [Text UI Testing Tutorial](tutorials/textUiTestingTutorial.md)
+`Level-10` | JavaFX tutorials:<br>→ [Part 1: Introduction to JavaFX][fx1]<br>→ [Part 2: Creating a GUI for Duke][fx2]<br>→ [Part 3: Interacting with the user][fx3]<br>→ [Part 4: Introduction to FXML][fx4]
 
-1. Numbered
-2. List
+[fx1]: <tutorials/javaFxTutorialPart1.md>
+[fx2]: <tutorials/javaFxTutorialPart2.md>
+[fx3]: <tutorials/javaFxTutorialPart3.md>
+[fx4]: <tutorials/javaFxTutorialPart4.md>
 
-**Bold** and _Italic_ and `Code` text
+# Feedback, Bug Reports
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prerthan99/ip/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-<img width="400" alt="Screenshot 2021-02-28 at 12 10 31 PM" src="https://user-images.githubusercontent.com/54735177/109407918-ce318b80-79bf-11eb-97ff-ca28b48f153d.png">
-
+* If you have feedback or bug reports, please post in [se-edu/duke issue tracker](https://github.com/se-edu/duke/issues).
+* We welcome pull requests too.
